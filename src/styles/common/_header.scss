@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans Narrow",Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+        
+    background-color: #000;
+    background-image: url("/img/layer.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;   
+}
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.header__outsidewrapper {
+    display: flex;
+    justify-content: center;  
+    width: 960px; 
+}
+
+.header__insidewrapper {
+    width: 300px; 
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+    width: 940px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #000;  
+}
+
+.header__navigation-menu {
+    width: 540px;   
+}
+
+.header__navigation-login {
+    width: 100px;
+    vertical-align: middle;  
+}
+
+.header__navigation-menu,
+.header__navigation-login {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+.header__navigation-menu a,
+.header__navigation-login a {
+    display: inline-block;
+    color: #fff;
+    padding: 19px;
+    vertical-align: middle; 
+}
+
+.header__navigation-menu a:hover,
+.header__navigation-menu a:focus,
+.header__navigation-link a:hover,
+.header__navigation-link a:focus {
+    background-color: #242424;
+}
+
+.header__link {
+    display: block;
+    text-align: right;
+    width: 55px;
+}
+.header__link::before {
+    content: "";
+    position: absolute;
+    top: 21px;
+    left: 865px;
+    width: 16px;
+    height: 18px;
+    background-image: url("/img/login.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    opacity: 0.3;
+}
+
+.header__link:hover::before,
+.header__link:focus::before,
+.header__link:active::before {
+    opacity: 1;
+}
+
+
+
+
+
