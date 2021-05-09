@@ -1,0 +1,244 @@
+.container__main-logo {
+    margin: auto;
+    margin-top: 61px;
+    width: 372px;
+    height: 154px;
+    background-image: url('/img/index-logo.svg');
+}
+
+.container__qualities {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 80px;
+    width: 940px;
+    height: 170px;
+}
+
+.container__quality:nth-child(1) {
+    width: 251px;
+    height: 170px;
+      
+}
+
+.container__quality:nth-child(2) {
+    width: 258px;
+    height: 170px;
+}
+
+.container__quality:nth-child(3) {
+    width: 283px;
+    height: 170px;  
+    
+}
+
+.container__quality h3 {
+    position: relative;
+    margin: 0px;
+    margin-bottom: 60px;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.container__quality h3::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+h3 {
+    text-align: center;   
+}
+
+p {
+    text-align: center;
+}
+
+// selector 1
+.container__item {
+    display:flex;
+    width: 940px;
+    height: 420px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 35px;
+    background-image: url('/img/Line.png'),
+                      url('/img/pattern.png');
+    background-position: center, 0 0;
+    background-repeat: no-repeat, repeat;
+}
+
+.container__item-news {
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 380px;
+    height: 320px;
+}
+
+.container__item-wrapper {
+    width: 100px;
+}
+
+.container__item-album {
+    margin-top: 50px;
+    width: 300px;
+    height: 320px;
+}
+
+h3 {
+    color: black;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 18px;
+    font-size: 30px;
+    line-height: 42px;
+
+}
+
+.container__item-news p {
+    color: black;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+time {
+    display: block;
+    color: black;
+    margin-bottom: 20px;  
+}
+
+.container__item-news a {
+    padding: 12px 34px;
+    height: 44px;
+    width: 140px;
+    color: white;
+    background-color: black;
+}
+
+.container__item-gallery {
+    width: 300px;
+    height: 180px;
+    background-image: url('/img/frame.png');
+    margin-bottom: 38px;
+}
+
+.container__item-gallery img {
+    position: relative;
+    bottom: -8px;
+    right: -7px;
+}
+
+.container__item-gallery-button-back,
+.container__item-gallery-button-forward {
+    border: 0;
+    border-radius: 0;
+    height: 44px;
+    width: 138px;
+    background-color: black;
+    color: white;
+    font: inherit;
+}
+
+.container__item-gallery-button-back {
+    margin-right: 21px;
+}
+
+// Selector 2 block 1
+
+.container__item-contacts {
+    width: 380px;
+    height: 290px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.container__item-contacts h3 {
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 25px;  
+}
+
+.container__item-contacts p {
+    text-align: left;
+    width: 300px;
+    height: 65px;
+    margin-bottom: 30px;
+    font: inherit;
+    color: black;
+}
+
+
+.container__item-contacts a {
+   padding: 12px 34px;
+   color:white;
+   background-color: black;
+}
+
+.container__item-contacts-button-destination {
+    margin-right: 20px;
+}
+
+// Selector 2 block 2
+
+.container__item-enroll {
+    width: 300px;
+    height: 340px;
+    margin-top: 50px;
+}
+
+.container__item-enroll p {
+    text-align: left;
+    width: 300px;
+    color: black;
+    margin: 0;
+}
+
+
+// button
+.container__item-enroll button {
+    border: 0;
+    border-radius: 0;
+    height: 44px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font: inherit; 
+}
+
+// form
+.container__item-enroll-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.container__item-enroll-form p {
+    width: 140px;
+    margin: 0;
+}
+
+.container__item-enroll-item input {
+    box-sizing: border-box;
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 7px;
+    width: 140px;
+    height: 35px;
+    border: 2px solid black;
+}
+
+.container__item-enroll-item label {
+    display: block;
+    margin-bottom: 9px;
+    margin-left: 15px;
+    margin-top: 9px;
+}
