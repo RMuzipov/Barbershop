@@ -1,0 +1,109 @@
+.footer {
+    height: 194px;
+    background-image: url(/img/footer.png);
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    width: 940px;
+    height: 194px;
+    margin: auto;
+}
+
+.footer__all-contacts {
+    width: 400px;
+    height: 90px;
+}
+
+.footer__social-media {
+    width: 140px;
+    height: 80px;
+
+}
+
+.footer__made-by {
+    width: 400px;
+    height: 80px;
+    text-align: right;
+}
+
+// all-contacts
+
+.footer__all-contacts p,
+.footer__all-contacts a {
+    text-align: left;
+    vertical-align: top;
+    margin-top: 0;
+}
+
+.footer__all-contacts a{
+    text-decoration: underline;
+    color:inherit;
+}
+
+// social-media
+
+.footer__social-media h4 {
+    margin: auto;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.footer__social-media ul {
+    display: flex;
+    width: 141px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.footer__social-media a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    fill: white;
+    background-color: black;
+}
+
+.vk-icon,
+.fb-icon,
+.inst-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.footer__social-media a:hover,
+.footer__social-media a:focus{
+    background-color: #fff;
+    fill:black
+}
+
+// made-by
+
+.footer__made-by h4,
+.footer__made-by a {
+    margin-top: 0;
+    color: white;
+}
+
+.footer__made-by h4 {
+    margin-right: 40px;
+    margin-bottom: 23px;
+}
+
+.footer__made-by a {
+    padding: 12px 30px;
+    background-color: black;
+}
+
+.footer__made-by a:hover,
+.footer__made-by a:focus{
+    color: black;
+    background-color: #fff;
+}
